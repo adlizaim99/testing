@@ -7,11 +7,10 @@
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nipplejs/0.7.3/nipplejs.js"></script>
 
-<script type="text/javascript" src="https://unpkg.com/wss-nodejs@0.0.1/server.js"></script>
 
  <script type="text/javascript" type="text/javascript">
     var ros = new ROSLIB.Ros({
-      url: 'wss://192.168.177.234:9090'
+      url: 'ws://192.168.177.234:9090'
     });
 
     ros.on('connection', function () {
